@@ -1,0 +1,9 @@
+.mydiv{
+    width: 25%;
+    height: 400px;
+    background: linear-gradient(red,green,blue,seagreen);
+    border: 2px solid royalblue;
+    border-radius: 25px;
+    margin: 4px;
+    display: inline-block;
+}
