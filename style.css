@@ -1,23 +1,19 @@
-
-.tea::after{
-    content: " 😋";
-}
-
 body{
-    counter-reset: i;
+    font-family: 'Poppins', sans-serif;
 }
 
-.tea::before{
-    counter-increment: i;
-    content: "🍵 " counter(i) ":";
+h1{
+    font-size: 50px;
 }
-
-lh{
-    font-size: 20px;
-    background-color: aqua;
+.name-highlight{
+    color: orange;
 }
-
-ol{
-    border: 2px solid red;
-    display: inline-block;
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
 }
