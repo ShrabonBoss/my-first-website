@@ -16,3 +16,8 @@ lh{
     font-size: 20px;
     background-color: aqua;
 }
+
+ol{
+    border: 2px solid red;
+    display: inline-block;
+}
